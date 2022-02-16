@@ -9,5 +9,5 @@ After training a test set is used to determine algorithm quality. The test set g
 
 Improvements:
 
-The classifier could be improved by using an edge-detector to remove background (for example sunlight) noise.
+The classifier could be improved by using an edge-detector to remove background noise (sunlight).
 Converting to grayscale images would also allow binary thresholding to improve an image mask.
