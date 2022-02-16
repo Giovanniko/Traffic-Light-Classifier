@@ -7,6 +7,7 @@ The maximum average brightness of each sector's pixels determines the classifica
 
 After training a test set is used to determine algorithm quality. The test set gave a 98% pass rate.
 
-#Improvements:
+Improvements:
+
 The classifier could be improved by using an edge-detector to remove background (for example sunlight) noise.
 Converting to grayscale images would also allow binary thresholding to improve an image mask.
