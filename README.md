@@ -5,9 +5,12 @@ The individual hsv channels are analyzed. The 'v' channel is used as the governi
 The program divides the light into 3 horizontal sectors. 
 The maximum average brightness of each sector's pixels determines the classification feature using one-hot encoding.
 
-After training a test set is used to determine algorithm quality. The test set gave a 98% pass rate.
+After training, a test set is used to determine algorithm quality. The test set gave a 98% pass rate.
 
 Improvements:
 
 The classifier could be improved by using an edge-detector to remove background noise (sunlight).
 Converting to grayscale images would also allow binary thresholding to improve an image mask.
+
+Note:
+Unfortunately, the Training and Test images are not available for uploading.
